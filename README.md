@@ -21,13 +21,14 @@ Modern, responsive single-page website built with vanilla HTML, CSS, and JavaScr
 ## 📋 Features
 
 - ✅ Responsive single-page design
-- ✅ Hero section with call-to-action
+- ✅ Hero section with video overlay background and call-to-action
 - ✅ Services overview
 - ✅ About/bio section
 - ✅ Contact form with Google Meet booking integration
 - ✅ Smooth scroll navigation
-- ✅ Mobile-optimized
+- ✅ Mobile-optimized with adaptive video opacity
 - ✅ Fast loading performance
+- ✅ Modern video background with dark gradient overlay
 
 ## 🛠️ Tech Stack
 
@@ -45,9 +46,11 @@ rodsantis-website/
 ├── styles.css          # Stylesheet
 ├── script.js           # JavaScript functionality
 ├── assets/
-│   └── images/
-│       ├── logo.png    # Company logo
-│       └── srodriguez_headshot.jpg # Professional photo
+│   ├── images/
+│   │   ├── logo.png    # Company logo
+│   │   └── srodriguez_headshot.jpg # Professional photo
+│   └── videos/
+│       └── hero_background.mp4 # Hero section video overlay
 ├── content.md          # Website content source
 ├── README.md           # This file
 └── CLAUDE.md           # Claude Code instructions
@@ -186,5 +189,5 @@ claude-code
 
 ---
 
-**Last Updated:** February 2025
+**Last Updated:** February 2026
 **Status:** 🚧 In Development

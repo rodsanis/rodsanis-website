@@ -56,8 +56,16 @@
   <!-- ========== HERO ========== -->
   <section class="hero" id="home">
     <div class="hero__bg-pattern"></div>
+
+    <!-- Video Background -->
+    <video class="hero__video" autoplay muted loop playsinline>
+      <source src="assets/videos/hero_background.mp4" type="video/mp4">
+    </video>
+
+    <!-- Dark Overlay for Text Readability -->
+    <div class="hero__overlay"></div>
+
     <div class="hero__content">
-      <img src="assets/images/rodsanis_logo.png" alt="Rodsan Innovative Solutions" class="hero__logo" width="180" height="180">
       <p class="hero__tagline">Automate the busywork. Focus on what matters.</p>
       <h1 class="hero__headline">Modernize the Way Your<br>Business <span class="gradient-text">Operates</span></h1>
       <p class="hero__subheadline">Custom automation solutions built to eliminate inefficiency, empower your team, and position your business for scalable, sustainable growth.</p>
@@ -69,11 +77,10 @@
         <a href="#services" class="btn btn--outline btn--lg">View Services</a>
       </div>
     </div>
-    <div>
+
     <a href="#services" class="hero__scroll-indicator" aria-label="Scroll to services">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
     </a>
-    </div>
   </section>
 
   <!-- ========== SERVICES ========== -->

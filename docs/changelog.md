@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2026-02-16
+
+### Added
+- Video overlay background in hero section (hero_background.mp4)
+- Dark gradient overlay for improved text readability over video
+- Scroll indicator hover effect with mint color transition
+- Mobile-optimized video display with reduced opacity (25% on mobile)
+
+### Changed
+- Updated hero section with modern video background aesthetic
+- Enhanced z-index layering hierarchy for proper element stacking
+- Improved scroll indicator visibility (now always visible above CTA buttons)
+
+### Removed
+- Logo image from hero section for cleaner, more focused design
+- Logo floating animation styles
+- Mobile logo styles
+
+### Fixed
+- Z-index bug where scroll indicator was hidden behind "Book a Free Discovery Call" button
+- Unnecessary wrapper div around scroll indicator
+
 ## [0.2.0] - 2026-02-15
 
 ### Added
