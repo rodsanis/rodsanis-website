@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] - 2026-02-15
+
+### Added
+- GitHub Actions CI pipeline (.github/workflows/ci.yml)
+  - HTML validation on PRs
+  - Link checking on PRs
+  - Lighthouse audit on PRs
+- Branch protection ruleset on main (requires PR for all changes)
+- .gitignore file
+
 ## [0.1.0] - 2026-02-15
 
 ### Added

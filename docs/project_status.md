@@ -10,6 +10,8 @@
 | index.html | Complete |
 | styles.css | Complete |
 | script.js | Complete |
+| CI/CD pipeline | Complete |
+| Branch protection | Complete |
 | Responsive testing | Needs Testing |
 | Vercel deployment | Not Started |
 
