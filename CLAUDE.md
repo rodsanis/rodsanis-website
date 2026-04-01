@@ -302,3 +302,14 @@ When ready to add analytics:
 **When in doubt:** Ask the user for clarification rather than making assumptions.
 
 **Goal:** Create a website that converts visitors into consulting clients.
+
+---
+
+## Notion Document IDs
+
+| Doc | Notion Page ID |
+|-----|----------------|
+| Rodsanis Website — README | 335a5ada-e132-815b-8619-d6fda74ca166 |
+| Website — Changelog | 335a5ada-e132-8194-a886-c76a7b9f9226 |
+| Website — Spec | 335a5ada-e132-8125-b8d5-eeb045947c6a |
+| Website — Status | 335a5ada-e132-8126-85d5-c0cb5f689f8b |
