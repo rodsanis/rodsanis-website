@@ -44,6 +44,4 @@ jobs:
         run: |
           npx serve -l 8080 &
           sleep 3
-          npx @lhci/cli autorun \
-            --collect.url=http://localhost:8080 \
-            --config=.lighthouserc.json
+          npx @lhci/cli collect --url=http://localhost:8080 --numberOfRuns=1
