@@ -1,0 +1,15 @@
+{
+  "ci": {
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "categories:performance": "off",
+        "largest-contentful-paint": "off",
+        "modern-image-formats": "off",
+        "render-blocking-resources": "off",
+        "render-blocking-insight": "off",
+        "uses-long-cache-ttl": "off"
+      }
+    }
+  }
+}

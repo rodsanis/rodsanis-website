@@ -13,10 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate HTML
-        uses: nicolomaioli/html5-validator-action@v1
+      - name: Setup Python for HTML validation
+        uses: actions/setup-python@v5
         with:
-          root: .
+          python-version: "3.12"
+
+      - name: Validate HTML
+        run: |
+          pip install html5validator
+          html5validator --root . --match "*.html"
 
       - name: Check links
         uses: lycheeverse/lychee-action@v2
@@ -41,5 +46,4 @@ jobs:
           sleep 3
           npx @lhci/cli autorun \
             --collect.url=http://localhost:8080 \
-            --assert.preset=lighthouse:recommended \
-            --assert.assertions.categories:performance=off
+            --config=.lighthouserc.json
