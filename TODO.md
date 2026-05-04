@@ -1,7 +1,7 @@
 # TODO — rodsantis-website
 
 Managed by `/pipeline` (adds tasks on start) and `/post-deploy` (marks done on merge).
-Link format: [TASK-N](https://notion.so/TASK_PAGE_URL) for tasks tracked in Notion.
+Format: `- [N] [short-name] <description> [plan](/path) [notion](url)`
 
 ## Active
 
@@ -9,4 +9,4 @@ Link format: [TASK-N](https://notion.so/TASK_PAGE_URL) for tasks tracked in Noti
 
 ## Done
 
-<!-- /post-deploy moves entries here -->
+- [1] Brand color revamp — Updated palette from mint/teal to gold (#D4AF6A, #A67C3C), new logos (Rodsanis-Logo-1.png navbar, Rodsanis-Logo-symbol.png footer), profile background in about section
